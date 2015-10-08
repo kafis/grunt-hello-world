@@ -25,12 +25,12 @@ In your project's Gruntfile, add a section named `hello_world` to the data objec
 ```js
 grunt.initConfig({
   hello_world: {
-    options: {
-      // Task-specific options go here.
-    },
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    },
+     world: {
+        name: "world"
+     },
+     other: {
+        name: "name"
+     }
   },
 });
 ```
